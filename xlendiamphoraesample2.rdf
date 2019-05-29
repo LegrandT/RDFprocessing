@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#"
+     xml:base="http://www.lsis.org/groplan/ontologies/Arpenteur.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#">
+        <owl:imports rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl"/>
+    </owl:Ontology>
+    
+
+
+   
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Amphorae1015659282 -->
+
+    <owl:NamedIndividual rdf:about="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Amphorae1015659282">
+        <rdf:type rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Amphorae"/>
+        <hasBoundingBox rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#BoundingBox2030458766"/>
+        <hasTransformation3D rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Transfo-1953670366"/>
+        <hasBellyDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3512</hasBellyDiameter>
+        <hasDiameterNeck rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0785</hasDiameterNeck>
+        <hasDistanceHandles rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.036</hasDistanceHandles>
+        <hasHandlesWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.04</hasHandlesWidth>
+        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.45023884957433324</hasHeight>
+        <hasHeightLips rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.012</hasHeightLips>
+        <hasIdn rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasIdn>
+        <hasInternalVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.047969090230015596</hasInternalVolume>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.46619632859965776</hasLength>
+        <hasMass rdf:datatype="http://www.w3.org/2001/XMLSchema#double">114.41360425167257</hasMass>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amphore_A15</hasName>
+        <hasRatioDiamHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.3275470922337111</hasRatioDiamHeight>
+        <hasTypologyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ramon-T2111-69</hasTypologyName>
+        <hasVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.047969090230015596</hasVolume>
+        <hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5977132755630574</hasWidth>
+        <hasWidthBetweenUpperHandles rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3077</hasWidthBetweenUpperHandles>
+        <hasWidthLips rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0132</hasWidthLips>
+    </owl:NamedIndividual>
+    
+	
+    <!-- http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Transfo-1953670366 -->
+
+    <owl:NamedIndividual rdf:about="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Transfo-1953670366">
+        <rdf:type rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Transformation3D"/>
+        <hasRotationMatrix rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Mat1220813917"/>
+        <hasTranslation rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#IPoint3D1039759545"/>
+        <hasIdn rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hasIdn>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transfo</hasName>
+        <hasScale rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9488028787930947</hasScale>
+    </owl:NamedIndividual>
+    
+	    <!-- http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Mat1220813917 -->
+
+    <owl:NamedIndividual rdf:about="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Mat1220813917">
+        <rdf:type rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#RotationMatrix"/>
+        <has_m00 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.026584480435393985</has_m00>
+        <has_m01 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.48514867655331456</has_m01>
+        <has_m02 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.8740274749906596</has_m02>
+        <has_m10 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.9996421861937839</has_m10>
+        <has_m11 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.010312478258207641</has_m11>
+        <has_m12 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.024681012416159335</has_m12>
+        <has_m20 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.0029605711767783354</has_m20>
+        <has_m21 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.8743708677847982</has_m21>
+        <has_m22 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.48524923553527216</has_m22>
+    </owl:NamedIndividual>
+    
+	    <!-- http://www.lsis.org/groplan/ontologies/Arpenteur.owl#IPoint3D1039759545 -->
+
+    <owl:NamedIndividual rdf:about="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#IPoint3D1039759545">
+        <rdf:type rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#IPoint3D"/>
+        <hasIdn rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hasIdn>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pt</hasName>
+        <hasX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.48428</hasX>
+        <hasY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.6437</hasY>
+        <hasZ rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-100.447</hasZ>
+        <isActive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isActive>
+        <isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isValid>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Amphorae1031968647 -->
+
+    <owl:NamedIndividual rdf:about="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Amphorae1031968647">
+        <rdf:type rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Amphorae"/>
+        <hasBoundingBox rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#BoundingBox922992444"/>
+        <hasTransformation3D rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Transfo1003825059"/>
+        <hasBellyDiameter rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3741</hasBellyDiameter>
+        <hasDiameterNeck rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0785</hasDiameterNeck>
+        <hasDistanceHandles rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0583</hasDistanceHandles>
+        <hasHandlesWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0503</hasHandlesWidth>
+        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5246810841618412</hasHeight>
+        <hasHeightLips rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.013</hasHeightLips>
+        <hasIdn rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasIdn>
+        <hasInternalVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.032969120157876224</hasInternalVolume>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4208000798695689</hasLength>
+        <hasMass rdf:datatype="http://www.w3.org/2001/XMLSchema#double">78.6363853927914</hasMass>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amphore_A03</hasName>
+        <hasRatioDiamHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6630504934731628</hasRatioDiamHeight>
+        <hasTypologyName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pithecusse_343</hasTypologyName>
+        <hasVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.032969120157876224</hasVolume>
+        <hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.3478900517695429</hasWidth>
+        <hasWidthBetweenUpperHandles rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2667</hasWidthBetweenUpperHandles>
+        <hasWidthLips rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0108</hasWidthLips>
+    </owl:NamedIndividual>
+    
+	
+	
+    <!-- http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Transfo1003825059 -->
+
+    <owl:NamedIndividual rdf:about="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Transfo1003825059">
+        <rdf:type rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Transformation3D"/>
+        <hasRotationMatrix rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Mat1743553655"/>
+        <hasTranslation rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#IPoint3D635001030"/>
+        <hasIdn rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hasIdn>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transfo</hasName>
+        <hasScale rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0587540823624464</hasScale>
+    </owl:NamedIndividual>
+    
+	
+	    <!-- http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Mat1743553655 -->
+
+    <owl:NamedIndividual rdf:about="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Mat1743553655">
+        <rdf:type rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#RotationMatrix"/>
+        <has_m00 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.8940661439620508</has_m00>
+        <has_m01 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4364393547740825</has_m01>
+        <has_m02 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.10082866569191606</has_m02>
+        <has_m10 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4446597497856109</has_m10>
+        <has_m11 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8375810445609001</has_m11>
+        <has_m12 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.31738887931505916</has_m12>
+        <has_m20 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.054068818568816845</has_m20>
+        <has_m21 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.3286011007234359</has_m21>
+        <has_m22 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9429198690567075</has_m22>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.lsis.org/groplan/ontologies/Arpenteur.owl#IPoint3D635001030 -->
+
+    <owl:NamedIndividual rdf:about="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#IPoint3D635001030">
+        <rdf:type rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#IPoint3D"/>
+        <hasIdn rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hasIdn>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pt</hasName>
+        <hasX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.919622719867867</hasX>
+        <hasY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0994071206495475</hasY>
+        <hasZ rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-100.7726534713104</hasZ>
+        <isActive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isActive>
+        <isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isValid>
+    </owl:NamedIndividual>
+    
+
+	
+  
+
+	
+	<!-- http://www.lsis.org/groplan/ontologies/Arpenteur.owl#ImagePoint1000019292 -->
+
+    <owl:NamedIndividual rdf:about="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#ImagePoint1000019292">
+        <rdf:type rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#ImagePoint"/>
+        <hasPhotograph rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Photo280889526"/>
+        <hasCorrelationCoef rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.0</hasCorrelationCoef>
+        <hasIdn rdf:datatype="http://www.w3.org/2001/XMLSchema#long">20</hasIdn>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perim</hasName>
+        <hasResidual rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasResidual>
+        <hasResidualX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasResidualX>
+        <hasResidualY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasResidualY>
+        <hasX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2886.0</hasX>
+        <hasY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">618.0</hasY>
+        <isActive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isActive>
+        <isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isValid>
+    </owl:NamedIndividual>
+	
+	 <!-- http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Photo280889526 -->
+
+    <owl:NamedIndividual rdf:about="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Photo280889526">
+        <rdf:type rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Photograph"/>
+        <hasCamera rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#DigitalCamera357013804"/>
+        <hasTransformation3D rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Transfo-1761854390"/>
+        <hasFullFileName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C:/_data/projet/unifi/Petra/Nov2004/foto_cf5/DSC_8686.JPG</hasFullFileName>
+        <hasIdn rdf:datatype="http://www.w3.org/2001/XMLSchema#long">13</hasIdn>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C:\_data\projet\unifi\Petra\Nov2004\foto_cf5\DSC_8686.JPG</hasName>
+        <isActive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isActive>
+        <isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isValid>
+    </owl:NamedIndividual>
+    
+	
+	   <!-- http://www.lsis.org/groplan/ontologies/Arpenteur.owl#DigitalCamera357013804 -->
+
+    <owl:NamedIndividual rdf:about="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#DigitalCamera357013804">
+        <rdf:type rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#DigitalCamera"/>
+        <hasDistortion rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Distortion1642610353"/>
+        <hasFocalLength rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.4146</hasFocalLength>
+        <hasFrameHeigthInPixel rdf:datatype="http://www.w3.org/2001/XMLSchema#long">2000</hasFrameHeigthInPixel>
+        <hasFrameWidthInPixel rdf:datatype="http://www.w3.org/2001/XMLSchema#long">3008</hasFrameWidthInPixel>
+        <hasIdn rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hasIdn>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D100_2ASM_10m_Air</hasName>
+        <hasPPX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.12625000000000064</hasPPX>
+        <hasPPY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.03529999999999944</hasPPY>
+        <hasPixelHeight_mm rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0078</hasPixelHeight_mm>
+        <hasPixelWidth_mm rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.007800432180851064</hasPixelWidth_mm>
+        <isActive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isActive>
+        <isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isValid>
+    </owl:NamedIndividual>
+    
+	
+	
+    <!-- http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Distortion1642610353 -->
+
+    <owl:NamedIndividual rdf:about="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#Distortion1642610353">
+        <rdf:type rdf:resource="http://www.lsis.org/groplan/ontologies/Arpenteur.owl#RadialDecenteringDistortion"/>
+        <hasCoef_K1 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.3800000002605846E-4</hasCoef_K1>
+        <hasCoef_K2 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.5000000024174388E-7</hasCoef_K2>
+        <hasCoef_K3 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.14706518716221E-19</hasCoef_K3>
+        <hasCoef_P1 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0E-5</hasCoef_P1>
+        <hasCoef_P2 rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0E-6</hasCoef_P2>
+        <hasIdn rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hasIdn>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D100_2ASM_10m_Air</hasName>
+        <isActive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isActive>
+        <isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isValid>
+    </owl:NamedIndividual>
+    
+
+</rdf:RDF>	
